@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Wisnu Nugroho</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center p-4 bg-gray-800">
+        <h1 class="text-xl font-bold">Wisnu Nugroho</h1>
+        <ul class="flex gap-4">
+            <li><a href="#about" class="hover:text-yellow-400">Tentang</a></li>
+            <li><a href="#projects" class="hover:text-yellow-400">Proyek</a></li>
+            <li><a href="#contact" class="hover:text-yellow-400">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="h-screen flex flex-col items-center justify-center text-center p-4">
+        <h2 class="text-4xl font-bold">Halo, Saya Wisnu Nugroho</h2>
+        <p class="mt-2 text-lg text-gray-300">Mahasiswa Sistem Informasi | Web Developer</p>
+        <a href="#projects" class="mt-4 px-6 py-2 bg-yellow-400 text-gray-900 rounded-lg hover:bg-yellow-500">Lihat Proyek</a>
+    </header>
+
+    <!-- Tentang Saya -->
+    <section id="about" class="p-8 text-center">
+        <h2 class="text-3xl font-bold">Tentang Saya</h2>
+        <p class="mt-2 text-gray-300">Saya mahasiswa Sistem Informasi yang menyukai teknologi dan pengembangan web.</p>
+    </section>
+
+    <!-- Proyek -->
+    <section id="projects" class="p-8 text-center bg-gray-800">
+        <h2 class="text-3xl font-bold">Proyek Saya</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+            <div class="p-4 bg-gray-700 rounded-lg">
+                <img src="images/project1.jpg" alt="Proyek 1" class="rounded">
+                <h3 class="text-xl mt-2">E-Commerce Laravel</h3>
+                <p class="text-gray-300">Sebuah platform belanja online.</p>
+            </div>
+            <div class="p-4 bg-gray-700 rounded-lg">
+                <img src="images/project2.jpg" alt="Proyek 2" class="rounded">
+                <h3 class="text-xl mt-2">AWR Tracking</h3>
+                <p class="text-gray-300">Sistem booking pendakian gunung.</p>
+            </div>
+            <div class="p-4 bg-gray-700 rounded-lg">
+                <img src="images/project3.jpg" alt="Proyek 3" class="rounded">
+                <h3 class="text-xl mt-2">Website Portfolio</h3>
+                <p class="text-gray-300">Dibuat dengan Django dan Next.js.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact" class="p-8 text-center">
+        <h2 class="text-3xl font-bold">Kontak Saya</h2>
+        <p class="mt-2 text-gray-300">Hubungi saya melalui email atau media sosial.</p>
+        <div class="mt-4">
+            <a href="mailto:wisnu@example.com" class="px-6 py-2 bg-yellow-400 text-gray-900 rounded-lg hover:bg-yellow-500">Email Saya</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-4 bg-gray-800 text-center">
+        <p>&copy; 2025 Wisnu Nugroho. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
